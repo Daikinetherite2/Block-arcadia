@@ -1,1 +1,13 @@
-body{font-family:Arial;text-align:center;background:#1d2330;color:#fff}#board{display:grid;grid-template-columns:repeat(8,40px);gap:2px;justify-content:center;margin:20px auto}.cell{width:40px;height:40px;background:#394055}.fill{background:#59c1ff}button{margin:5px}
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+canvas{
+    background:#222;
+    border:3px solid lime;
+    margin-top:10px;
+}
